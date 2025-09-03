@@ -84,7 +84,6 @@ Password: admin123
 Name: Vishant Chaudhary
 
 LinkedIn: www.linkedin.com/in/vishant-chaudhary-c-s
-
 Email: vishantkumar3105@gmail.com
 
 📄 License
