@@ -1,92 +1,110 @@
-🚂 Railway Reservation System
-A console-based application for managing a simple railway ticket booking system, built entirely in C.
+# 🚂 Railway Reservation System
 
-💻 Project Overview
-This project is a straightforward and efficient solution for automating the process of railway ticket reservations. Developed in C, it serves as a robust academic project that demonstrates fundamental programming concepts such as data structures, modular function design, and file handling for data persistence. The system allows users to view train schedules, book and cancel tickets, and retrieve booking details. It also features a basic administrator interface for managing train information.
+A console-based application in **C** for managing a basic railway ticket booking system. This project demonstrates core programming concepts, including data structures, modular design, and file handling.
 
-📸 Console Screenshot
-Here is a preview of the application's console interface in action:
+---
 
-✨ Features
-User-Friendly Interface: A clear, menu-driven console application.
+## 💻 Project Overview
 
-Train Schedule: Displays a list of all available trains, their routes, and available seats.
+The Railway Reservation System automates the ticket booking process, providing a simple yet effective interface for passengers and administrators. Users can view train schedules, book or cancel tickets, and retrieve booking details, while administrators can manage train information. The project is ideal as an academic demonstration of structured programming and C fundamentals.
 
-Ticket Booking: Allows passengers to book a seat on a selected train.
+---
 
-Ticket Cancellation: Enables the cancellation of an existing booking using its unique PNR number.
+## ✨ Features
 
-Booking Management: Users can retrieve and view their ticket details by PNR.
+* **User-Friendly Interface**: Menu-driven console application for easy navigation.
+* **Train Schedule**: View all available trains, routes, and seat availability.
+* **Ticket Booking**: Book a seat on any available train.
+* **Ticket Cancellation**: Cancel bookings using the unique PNR number.
+* **Booking Management**: Retrieve and view ticket details.
+* **Admin Access**: Admin login to manage trains and review all bookings.
+* **Data Persistence**: All data is stored in binary files, preserving information across sessions.
 
-Admin Access: A dedicated admin login to manage trains and view all bookings in the system.
+---
 
-Data Persistence: All data is saved to binary files, ensuring that information is preserved across program executions.
+## 🛠 Tech Stack
 
-🛠 Tech Stack
-Programming Language:
+* **Programming Language**: C
+* **Libraries**:
 
-C
+  * `stdio.h` – Standard Input/Output
+  * `stdlib.h` – Standard Library
+  * `string.h` – String Manipulation
+  * `ctype.h` – Character Handling
 
-Libraries:
+---
 
-stdio.h (Standard Input/Output)
+## 💾 Data Storage
 
-stdlib.h (Standard Library)
+The system uses binary files for persistent storage:
 
-string.h (String Manipulation)
+* `trains.dat` – Stores train details
+* `bookings.dat` – Stores passenger and ticket information
 
-ctype.h (Character Handling)
+---
 
-💾 Data Storage
-This project uses binary file handling for data persistence.
+## 🚀 Getting Started
 
-trains.dat: Stores all train details in a binary format.
+Follow these steps to compile and run the project locally.
 
-bookings.dat: Stores all booking records, including passenger and ticket information.
+### Prerequisites
 
-🚀 Getting Started
-Follow these steps to compile and run the project on your local machine.
+* C Compiler (GCC, MinGW, or similar)
 
-Prerequisites
-A C compiler (e.g., GCC, MinGW).
+### Installation
 
-Installation
-Clone the repository or download the source code.
+1. Clone the repository or download the source code.
+2. Save the main file as `main.c`.
+3. Open a terminal or command prompt and navigate to the project directory.
 
-Save the code as main.c.
+### Compile and Run
 
-Open your terminal or command prompt and navigate to the project directory.
-
-Compile and Run
-To compile the source code, use the following command:
-
+```bash
 gcc main.c -o railway_reservation
+```
 
-To run the compiled executable:
+Run the executable:
 
-# On Windows
+* **Windows**:
+
+```bash
 .\railway_reservation.exe
+```
 
-# On macOS or Linux
+* **macOS/Linux**:
+
+```bash
 ./railway_reservation
+```
 
-📋 Usage Guide
-The application will present a main menu upon startup. You can navigate between the User and Admin menus.
+---
 
-Admin Credentials
-The admin login is a basic hardcoded authentication for demonstration purposes.
+## 📋 Usage Guide
 
-Username: admin
+Upon running, the application presents a main menu allowing access to both **User** and **Admin** functionalities.
 
-Password: admin123
+### Admin Credentials
 
-👨‍💻 Author
-Name: Vishant Chaudhary
+* **Username**: `admin`
+* **Password**: `admin123`
 
-LinkedIn: www.linkedin.com/in/vishant-chaudhary-c-s
-Email: vishantkumar3105@gmail.com
+> Note: Admin authentication is hardcoded for demonstration purposes.
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-⚡ "This Railway Reservation System doesn't just manage tickets — it demonstrates the power of structured programming and problem-solving in C."
+## 👨‍💻 Author
+
+**Vishant Chaudhary**
+
+* [LinkedIn](https://www.linkedin.com/in/vishant-chaudhary-c-s)
+* Email: [vishantkumar3105@gmail.com](mailto:vishantkumar3105@gmail.com)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the LICENSE file for details.
+
+---
+
+> ⚡ "The Railway Reservation System not only manages tickets but also showcases structured programming, problem-solving, and data management in C."
